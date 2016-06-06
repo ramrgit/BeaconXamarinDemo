@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeaconXamarinDemo", "BeaconXamarinDemo\BeaconXamarinDemo.csproj", "{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Debug|iPhone.Build.0 = Debug|iPhone
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Release|iPhone.ActiveCfg = Release|iPhone
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Release|iPhone.Build.0 = Release|iPhone
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{EEBA21C0-7109-403D-AE15-3DD0D66F8CB1}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
