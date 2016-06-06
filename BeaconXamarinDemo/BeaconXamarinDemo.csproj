@@ -88,6 +88,9 @@
     <Compile Include="AppDelegate.cs" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
+    <Compile Include="Models\Becon.cs" />
+    <Compile Include="Models\CoreLocation.cs" />
+    <Compile Include="Models\Globals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

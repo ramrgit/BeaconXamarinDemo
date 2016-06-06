@@ -1,4 +1,6 @@
-﻿using Foundation;
+﻿using BeaconXamarinDemo.Models;
+using CoreLocation;
+using Foundation;
 using UIKit;
 
 namespace BeaconXamarinDemo
@@ -15,6 +17,20 @@ namespace BeaconXamarinDemo
         {
             get;
             set;
+        }
+
+        private CLLocationManager _locationManager;
+        public CLLocationManager ShareLocationManager
+        {
+            get
+            {
+                if (_locationManager == null)
+                {
+                    _locationManager = new CLLocationManager();
+                    _locationManager.Delegate = new Models.CoreLocation();
+                }
+                return _locationManager;
+            }
         }
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
@@ -49,6 +65,7 @@ namespace BeaconXamarinDemo
         {
             // Restart any tasks that were paused (or not yet started) while the application was inactive. 
             // If the application was previously in the background, optionally refresh the user interface.
+            ShareLocationManager.StartMonitoring(Region.RegionToMonitor);
         }
 
         public override void WillTerminate(UIApplication application)
